@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit 6-Potted Plant_Flower.ma
-//Last modified: Thu, Jun 19, 2025 08:32:24 PM
+//Last modified: Thu, Jun 19, 2025 08:37:14 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,19 +11,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Mac OS X 15.5";
-fileInfo "UUID" "505AA171-A146-D8C2-F277-41B4F44F428F";
+fileInfo "UUID" "0AA267F5-0348-7064-870D-A3B576299A9E";
 createNode transform -s -n "persp";
 	rename -uid "76F13A69-3F4B-D318-0F7D-DFA9CBE2EF6A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 27.164185818960021 31.272105679271746 16.064854710447449 ;
-	setAttr ".r" -type "double3" -44.738352729598368 59.400000000000048 6.248125561208232e-15 ;
+	setAttr ".t" -type "double3" 28.2566832570567 19.136867363311865 19.492980090333052 ;
+	setAttr ".r" -type "double3" -29.138352729598893 55.400000000000489 0 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-15 -3.5527136788005009e-15 7.1054273576010019e-15 ;
 	setAttr ".rpt" -type "double3" -2.7339683746975118e-14 6.7087542773920795e-15 -9.6846678605402609e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DB1468E6-684F-29E7-72A4-408FCA21AB7E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 44.42878730834984;
+	setAttr ".coi" 39.301858912435698;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
