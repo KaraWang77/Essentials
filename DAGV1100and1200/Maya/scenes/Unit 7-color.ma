@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: Sofa.ma
-//Last modified: Fri, Jun 27, 2025 06:17:10 PM
+//Name: Unit 7-color.ma
+//Last modified: Fri, Jun 27, 2025 06:19:03 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Cup" -rfn "CupRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/maya/projects/default//scenes/Cup.ma";
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Table.ma";
@@ -27,7 +27,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Mac OS X 15.5";
-fileInfo "UUID" "00B632EC-484F-DFA3-314F-9497013081F9";
+fileInfo "UUID" "0D913870-9441-84A7-6281-A9A3358076D9";
 createNode transform -s -n "persp";
 	rename -uid "997F4058-1048-0C1D-5243-01ADF13F6A5B";
 	setAttr ".v" no;
@@ -7173,4 +7173,4 @@ connectAttr "file2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file2.oc" ":standardSurface1.bc";
 connectAttr "FloorMeshShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "file2.msg" ":initialMaterialInfo.t" -na;
-// End of Sofa.ma
+// End of Unit 7-color.ma
