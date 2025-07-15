@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit 10-RoomScene.ma
-//Last modified: Mon, Jul 14, 2025 07:54:48 PM
+//Last modified: Mon, Jul 14, 2025 08:10:48 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Cup" -rfn "CupRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/maya/projects/default//scenes/Cup.ma";
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Table.ma";
@@ -27,18 +27,18 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Mac OS X 15.5";
-fileInfo "UUID" "C7123CB2-8842-AB0C-8B06-778E6C800708";
+fileInfo "UUID" "E1499495-334C-E9F3-E45A-A48104DFB88F";
 createNode transform -s -n "persp";
 	rename -uid "997F4058-1048-0C1D-5243-01ADF13F6A5B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 34.646382115442321 14.774095967599692 35.830531674700453 ;
-	setAttr ".r" -type "double3" -8.3999999999961243 -315.99999999987858 0 ;
+	setAttr ".t" -type "double3" 39.109592738062446 18.169530779454206 24.077593239598457 ;
+	setAttr ".r" -type "double3" -13.19999999999712 -301.59999999973098 1.5174810263262168e-15 ;
 	setAttr ".rpt" -type "double3" -4.5607159734698422e-15 -1.382993646138156e-15 5.9856431330154944e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0FC7ECE4-7C47-36FB-3814-B3B7DA18E059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 50.194504695470087;
+	setAttr ".coi" 46.980333684561607;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -6693,6 +6693,210 @@ createNode materialxStack -n "materialXStackShape1" -p "materialXStack1";
 		+ "        \"name\": \"document15\"\n    },\n    {\n        \"document\": \"AAABvnicdVFLCoMwEN17imHWpVbcdOGHgstioR5ApiZSQaMkKvb29ZeioUIWeZnJ+8x44VCV0HOpilr46JwvGAaWV1HLZUHlsC25VwwsAE+1JBhJlqpO5pRxEFRxH81nB6H9NFNhwepNjEsEUTPOeO7j7Rk/7lEaR6n5ddYZlQrRdO1K/yLF06wua6l5Z+Ai9FR2I3ROMB0Ee3Zpm6SL9+Wu863ciW5NDOu6b+N6srsn+efWyHw4iMPR6RB7qXE19m83gfUFrNmX8Q==\",\n        \"name\": \"document16\"\n    },\n    {\n        \"document\": \"AAABx3icdVHbCoJAEH33K4Z5ltSkKPBC4GMU5AfI5K4k6Cq7KvX3eWmjlnqbszN7LjNBfK8rGLhUZSNC9FYuxpEV1NRxWVJ1/2z5O4wsgEB1JBhJlqleFpRzEFTzEM1nD6F7tFNjwepGjEsE0TDOeBHi4XI6H5PslGTm11lnVCpF23cv+ispnuVN1UjNOwMfYaCqH6G72q+9jQ2eDWO53yI4s13HZF9CLLUO+hJJ9WhqZNBzH/Yn398kv2wb4f9u5O8OdYhvqfFGzvtIkfUE3o6ZxA==\",\n        \"name\": \"document17\"\n    },\n    {\n        \"document\": \"AAABwnicdZHPDoIwDMbvPMXSuyLh4oFhTDwaTOQBlslKJMJGtmHw7eXfjCx6W9f2+35tk0Pf1OSJ2lRKUoi2OzikQdJwi7ridf+diveQBoQkxnIpuBbMdLrkBRLJG6Tgf0dA7KsdE3Ns7lygBiKVQIElheM1u5xPLDsxv3XyGZwq2XZ2kb9xg6xQtdJOdwpiIMfODpLmsTmr4oGCwg5IOJGGvvDMP7/djIt+7kpzD9/VfZGPyGuRX8Te3H+X8Xd9boi11XCe8HOfNHgDSOWamA==\",\n"
 		+ "        \"name\": \"document18\"\n    },\n    {\n        \"document\": \"AAABbHicdZDPCoMwDIfvPkXIA8zJLjv4h4HH4WA+gIQ1MkGrtHW4t5+u69CCxzTp7/uSOJu6Fl6sdNPLBKPDEbM0iDsyrBpqp3XrdMY0AIi1ISlIiUqPqqYHg6SOE/SfIwTzHpaGrfWTBCsE2QsWXCd4uRe3a14VeeV/RQgtyZbO5gcq3XTpgdzcirGEb0O+O8zZjRxG49S3hrvau4ta3dBDzYcM/5dMgw94Xn44\",\n        \"name\": \"document19\"\n    },\n    {\n        \"document\": \"AAABbHicdZDPCoMwDIfvPkXIA8zJLjv4h4HH4WA+gIQ1MkGrtHW4t5+u69CCxzTp7/uSOJu6Fl6sdNPLBKPDEbM0iDsyrBpqp3XrdMY0AIi1ISlIiUqPqqYHg6SOE/SfIwTzHpaGrfWTBCsE2QsWXCd4uRe3a14VeeV/RQgtyZbO5gcq3XTpgdzcirGEb0O+O8zZjRxG49S3hrvau4ta3dBDzYcM/5dMgw94Xn44\",\n        \"name\": \"document20\"\n    },\n    {\n        \"document\": \"AAABz3icdVHRCoJAEHz3K5Z9DjWNNFAj8DEK6gNk6y4S9Iw7Ffv7TLvQo57u5nZvZmc22nZlAS2XKq9EjEvbxW1iRSXVXOZUdNOSH2JiAUSqJsFIskw18kZXDoJKHqP5vESon493YcTqToxLBFExzvgtxt3pcNyn2SHNzK+DTq+Ui0dTf+gvpHh2rYpKat4B+AgtFU0PXTvwAm8VLsC1w8AbjvVmtUZwhrEdU2U0M9614Y/YWbeeDS+6b2LjPf+c5Nf4Rgh/k/mbpTYxl+p35XyXlVgvq46baA==\",\n        \"name\": \"document21\"\n    },\n    {\n        \"document\": \"AAABW3icdZBBDsIgEEX3PQXhAGLjxgWlG5fWKzSjTCNJoQ1Q095eUsQQotvPz3+P4e2qR/JC69RkGlofjrQVFdfg0SoY1/zpdKaiIoR3sMEV9B2tJwY0NjRLakr8NofMLXaAB7onSLSUmEmixCF2b5d+jPW+qLGd8AmTRUbpS0zqZISwXgzs3mFXmXlJzgX4r/SvH0ZLVlDC3dj3cKJ6A3YsdyU=\",\n"
 		+ "        \"name\": \"document22\"\n    }\n]\n");
+createNode transform -n "pCylinder1";
+	rename -uid "48FEA46C-4C40-4C4F-39F9-8DA650167E67";
+	setAttr ".rp" -type "double3" 1 0 0 ;
+	setAttr ".sp" -type "double3" 1 0 0 ;
+createNode mesh -n "pCylinderShape1" -p "pCylinder1";
+	rename -uid "5E5D86A3-AE4E-3897-8EDB-199EB4DE9109";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr -s 10 ".gtag";
+	setAttr ".gtag[0].gtagnm" -type "string" "bottom";
+	setAttr ".gtag[0].gtagcmp" -type "componentList" 1 "f[20:39]";
+	setAttr ".gtag[1].gtagnm" -type "string" "bottomRing";
+	setAttr ".gtag[1].gtagcmp" -type "componentList" 1 "e[0:19]";
+	setAttr ".gtag[2].gtagnm" -type "string" "cylBottomCap";
+	setAttr ".gtag[2].gtagcmp" -type "componentList" 2 "vtx[0:19]" "vtx[40]";
+	setAttr ".gtag[3].gtagnm" -type "string" "cylBottomRing";
+	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "vtx[0:19]";
+	setAttr ".gtag[4].gtagnm" -type "string" "cylSides";
+	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "vtx[0:39]";
+	setAttr ".gtag[5].gtagnm" -type "string" "cylTopCap";
+	setAttr ".gtag[5].gtagcmp" -type "componentList" 2 "vtx[20:39]" "vtx[41]";
+	setAttr ".gtag[6].gtagnm" -type "string" "cylTopRing";
+	setAttr ".gtag[6].gtagcmp" -type "componentList" 1 "vtx[20:39]";
+	setAttr ".gtag[7].gtagnm" -type "string" "sides";
+	setAttr ".gtag[7].gtagcmp" -type "componentList" 1 "f[0:19]";
+	setAttr ".gtag[8].gtagnm" -type "string" "top";
+	setAttr ".gtag[8].gtagcmp" -type "componentList" 1 "f[40:59]";
+	setAttr ".gtag[9].gtagnm" -type "string" "topRing";
+	setAttr ".gtag[9].gtagcmp" -type "componentList" 1 "e[20:39]";
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 84 ".uvst[0].uvsp[0:83]" -type "float2" 0.64860266 0.10796607
+		 0.62640899 0.064408496 0.59184152 0.029841021 0.54828393 0.0076473355 0.5 -7.4505806e-08
+		 0.45171607 0.0076473504 0.40815851 0.029841051 0.37359107 0.064408526 0.3513974 0.1079661
+		 0.34374997 0.15625 0.3513974 0.2045339 0.37359107 0.24809146 0.40815854 0.28265893
+		 0.4517161 0.3048526 0.5 0.3125 0.54828387 0.3048526 0.59184146 0.28265893 0.62640893
+		 0.24809146 0.6486026 0.2045339 0.65625 0.15625 0.375 0.3125 0.38749999 0.3125 0.39999998
+		 0.3125 0.41249996 0.3125 0.42499995 0.3125 0.43749994 0.3125 0.44999993 0.3125 0.46249992
+		 0.3125 0.4749999 0.3125 0.48749989 0.3125 0.49999988 0.3125 0.51249987 0.3125 0.52499986
+		 0.3125 0.53749985 0.3125 0.54999983 0.3125 0.56249982 0.3125 0.57499981 0.3125 0.5874998
+		 0.3125 0.59999979 0.3125 0.61249977 0.3125 0.62499976 0.3125 0.375 0.6875 0.38749999
+		 0.6875 0.39999998 0.6875 0.41249996 0.6875 0.42499995 0.6875 0.43749994 0.6875 0.44999993
+		 0.6875 0.46249992 0.6875 0.4749999 0.6875 0.48749989 0.6875 0.49999988 0.6875 0.51249987
+		 0.6875 0.52499986 0.6875 0.53749985 0.6875 0.54999983 0.6875 0.56249982 0.6875 0.57499981
+		 0.6875 0.5874998 0.6875 0.59999979 0.6875 0.61249977 0.6875 0.62499976 0.6875 0.64860266
+		 0.79546607 0.62640899 0.75190848 0.59184152 0.71734101 0.54828393 0.69514734 0.5
+		 0.68749994 0.45171607 0.69514734 0.40815851 0.71734107 0.37359107 0.75190854 0.3513974
+		 0.79546607 0.34374997 0.84375 0.3513974 0.89203393 0.37359107 0.93559146 0.40815854
+		 0.97015893 0.4517161 0.9923526 0.5 1 0.54828387 0.9923526 0.59184146 0.97015893 0.62640893
+		 0.93559146 0.6486026 0.89203393 0.65625 0.84375 0.5 0.15625 0.5 0.84375;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 42 ".vt[0:41]"  -9.30701828 0.0089261532 -1.11298847 -9.14650536 0.0089261532 2.12652397
+		 -7.9927597 0.0089261532 5.15789318 -5.95874214 0.0089261532 7.68435192 -3.24355698 0.0089261532 9.45861626
+		 -0.11298895 0.0089261532 10.30701733 3.12652683 0.0089261532 10.14649963 6.15789318 0.0089261532 8.9927597
+		 8.68435192 0.0089261532 6.95874119 10.45861435 0.0089261532 4.2435565 11.30701733 0.0089261532 1.11298919
+		 11.14649963 0.0089261532 -2.12652588 9.99275875 0.0089261532 -5.15789223 7.95874119 0.0089261532 -7.68435097
+		 5.24355698 0.0089261532 -9.45861435 2.11298895 0.0089261532 -10.30701637 -1.12652564 0.0089261532 -10.14649868
+		 -4.15789223 0.0089261532 -8.99275875 -6.68434906 0.0089261532 -6.95874023 -8.45861435 0.0089261532 -4.2435565
+		 -9.30701828 0.18625486 -1.11298847 -9.14650536 0.18625486 2.12652397 -7.9927597 0.18625486 5.15789318
+		 -5.95874214 0.18625486 7.68435192 -3.24355698 0.18625486 9.45861626 -0.11298895 0.18625486 10.30701733
+		 3.12652683 0.18625486 10.14649963 6.15789318 0.18625486 8.9927597 8.68435192 0.18625486 6.95874119
+		 10.45861435 0.18625486 4.2435565 11.30701733 0.18625486 1.11298919 11.14649963 0.18625486 -2.12652588
+		 9.99275875 0.18625486 -5.15789223 7.95874119 0.18625486 -7.68435097 5.24355698 0.18625486 -9.45861435
+		 2.11298895 0.18625486 -10.30701637 -1.12652564 0.18625486 -10.14649868 -4.15789223 0.18625486 -8.99275875
+		 -6.68434906 0.18625486 -6.95874023 -8.45861435 0.18625486 -4.2435565 1 0.0089261532 0
+		 1 0.18625486 0;
+	setAttr -s 100 ".ed[0:99]"  0 1 0 1 2 0 2 3 0 3 4 0 4 5 0 5 6 0 6 7 0
+		 7 8 0 8 9 0 9 10 0 10 11 0 11 12 0 12 13 0 13 14 0 14 15 0 15 16 0 16 17 0 17 18 0
+		 18 19 0 19 0 0 20 21 0 21 22 0 22 23 0 23 24 0 24 25 0 25 26 0 26 27 0 27 28 0 28 29 0
+		 29 30 0 30 31 0 31 32 0 32 33 0 33 34 0 34 35 0 35 36 0 36 37 0 37 38 0 38 39 0 39 20 0
+		 0 20 1 1 21 1 2 22 1 3 23 1 4 24 1 5 25 1 6 26 1 7 27 1 8 28 1 9 29 1 10 30 1 11 31 1
+		 12 32 1 13 33 1 14 34 1 15 35 1 16 36 1 17 37 1 18 38 1 19 39 1 40 0 1 40 1 1 40 2 1
+		 40 3 1 40 4 1 40 5 1 40 6 1 40 7 1 40 8 1 40 9 1 40 10 1 40 11 1 40 12 1 40 13 1
+		 40 14 1 40 15 1 40 16 1 40 17 1 40 18 1 40 19 1 20 41 1 21 41 1 22 41 1 23 41 1 24 41 1
+		 25 41 1 26 41 1 27 41 1 28 41 1 29 41 1 30 41 1 31 41 1 32 41 1 33 41 1 34 41 1 35 41 1
+		 36 41 1 37 41 1 38 41 1 39 41 1;
+	setAttr -s 60 -ch 200 ".fc[0:59]" -type "polyFaces" 
+		f 4 0 41 -21 -41
+		mu 0 4 20 21 42 41
+		f 4 1 42 -22 -42
+		mu 0 4 21 22 43 42
+		f 4 2 43 -23 -43
+		mu 0 4 22 23 44 43
+		f 4 3 44 -24 -44
+		mu 0 4 23 24 45 44
+		f 4 4 45 -25 -45
+		mu 0 4 24 25 46 45
+		f 4 5 46 -26 -46
+		mu 0 4 25 26 47 46
+		f 4 6 47 -27 -47
+		mu 0 4 26 27 48 47
+		f 4 7 48 -28 -48
+		mu 0 4 27 28 49 48
+		f 4 8 49 -29 -49
+		mu 0 4 28 29 50 49
+		f 4 9 50 -30 -50
+		mu 0 4 29 30 51 50
+		f 4 10 51 -31 -51
+		mu 0 4 30 31 52 51
+		f 4 11 52 -32 -52
+		mu 0 4 31 32 53 52
+		f 4 12 53 -33 -53
+		mu 0 4 32 33 54 53
+		f 4 13 54 -34 -54
+		mu 0 4 33 34 55 54
+		f 4 14 55 -35 -55
+		mu 0 4 34 35 56 55
+		f 4 15 56 -36 -56
+		mu 0 4 35 36 57 56
+		f 4 16 57 -37 -57
+		mu 0 4 36 37 58 57
+		f 4 17 58 -38 -58
+		mu 0 4 37 38 59 58
+		f 4 18 59 -39 -59
+		mu 0 4 38 39 60 59
+		f 4 19 40 -40 -60
+		mu 0 4 39 40 61 60
+		f 3 -1 -61 61
+		mu 0 3 1 0 82
+		f 3 -2 -62 62
+		mu 0 3 2 1 82
+		f 3 -3 -63 63
+		mu 0 3 3 2 82
+		f 3 -4 -64 64
+		mu 0 3 4 3 82
+		f 3 -5 -65 65
+		mu 0 3 5 4 82
+		f 3 -6 -66 66
+		mu 0 3 6 5 82
+		f 3 -7 -67 67
+		mu 0 3 7 6 82
+		f 3 -8 -68 68
+		mu 0 3 8 7 82
+		f 3 -9 -69 69
+		mu 0 3 9 8 82
+		f 3 -10 -70 70
+		mu 0 3 10 9 82
+		f 3 -11 -71 71
+		mu 0 3 11 10 82
+		f 3 -12 -72 72
+		mu 0 3 12 11 82
+		f 3 -13 -73 73
+		mu 0 3 13 12 82
+		f 3 -14 -74 74
+		mu 0 3 14 13 82
+		f 3 -15 -75 75
+		mu 0 3 15 14 82
+		f 3 -16 -76 76
+		mu 0 3 16 15 82
+		f 3 -17 -77 77
+		mu 0 3 17 16 82
+		f 3 -18 -78 78
+		mu 0 3 18 17 82
+		f 3 -19 -79 79
+		mu 0 3 19 18 82
+		f 3 -20 -80 60
+		mu 0 3 0 19 82
+		f 3 20 81 -81
+		mu 0 3 80 79 83
+		f 3 21 82 -82
+		mu 0 3 79 78 83
+		f 3 22 83 -83
+		mu 0 3 78 77 83
+		f 3 23 84 -84
+		mu 0 3 77 76 83
+		f 3 24 85 -85
+		mu 0 3 76 75 83
+		f 3 25 86 -86
+		mu 0 3 75 74 83
+		f 3 26 87 -87
+		mu 0 3 74 73 83
+		f 3 27 88 -88
+		mu 0 3 73 72 83
+		f 3 28 89 -89
+		mu 0 3 72 71 83
+		f 3 29 90 -90
+		mu 0 3 71 70 83
+		f 3 30 91 -91
+		mu 0 3 70 69 83
+		f 3 31 92 -92
+		mu 0 3 69 68 83
+		f 3 32 93 -93
+		mu 0 3 68 67 83
+		f 3 33 94 -94
+		mu 0 3 67 66 83
+		f 3 34 95 -95
+		mu 0 3 66 65 83
+		f 3 35 96 -96
+		mu 0 3 65 64 83
+		f 3 36 97 -97
+		mu 0 3 64 63 83
+		f 3 37 98 -98
+		mu 0 3 63 62 83
+		f 3 38 99 -99
+		mu 0 3 62 81 83
+		f 3 39 80 -100
+		mu 0 3 81 80 83;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "F8C72DD3-EF4C-29EA-AE21-D099BE2A7739";
 	setAttr -s 37 ".lnk";
@@ -7315,6 +7519,7 @@ createNode place2dTexture -n "place2dTexture1";
 	rename -uid "1C7000B0-F54E-E1A9-7B37-89A5700B9A96";
 createNode file -n "file2";
 	rename -uid "CC55869F-4E45-10E3-4C6E-4B98489A69BA";
+	setAttr ".ftn" -type "string" "/Users/karawang/Documents/GitHub/Essentials/DAGV1100and1200/Maya//images/Scene1_Texture.png";
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "place2dTexture2";
 	rename -uid "3C320432-B94C-F217-44C7-D08B3EAC015B";
@@ -7813,6 +8018,7 @@ select -ne :standardSurface1;
 	setAttr ".sc" -type "float3" 0.13330001 0.31369999 0.20389999 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
+	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
@@ -8517,5 +8723,6 @@ connectAttr "More_Light_Wood_png.msg" ":defaultTextureList1.tx" -na;
 connectAttr "colors_png.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file2.oc" ":standardSurface1.bc";
 connectAttr "FloorMeshShape.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "pCylinderShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "file2.msg" ":initialMaterialInfo.t" -na;
 // End of Unit 10-RoomScene.ma
