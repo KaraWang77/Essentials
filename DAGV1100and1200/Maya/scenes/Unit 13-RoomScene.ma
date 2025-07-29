@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit 13-RoomScene.ma
-//Last modified: Tue, Jul 29, 2025 01:35:24 PM
+//Last modified: Tue, Jul 29, 2025 01:44:30 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Cup" -rfn "CupRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/maya/projects/default//scenes/Cup.ma";
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "/Users/karawang/Documents/GitHub/Essentials/DAGV1100and1200/Maya//scenes/Table.ma";
@@ -29,12 +29,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Mac OS X 15.5";
-fileInfo "UUID" "7454CB17-F54E-A3AC-60EC-9EBEC565D57F";
+fileInfo "UUID" "10E9AB60-5B49-71D5-83AC-99A42BF3F17F";
 createNode transform -s -n "persp";
 	rename -uid "997F4058-1048-0C1D-5243-01ADF13F6A5B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.9810959697052857 20.700801346456618 38.790930576748167 ;
-	setAttr ".r" -type "double3" -385.19999999926978 -348.79999999997278 8.1057596367176204e-16 ;
+	setAttr ".t" -type "double3" 9.8748566605894688 19.689633062815886 37.007347632219599 ;
+	setAttr ".r" -type "double3" -383.99999999926615 -339.19999999996907 8.505742733035529e-16 ;
 	setAttr ".rpt" -type "double3" -4.5607159734698422e-15 -1.382993646138156e-15 5.9856431330154944e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0FC7ECE4-7C47-36FB-3814-B3B7DA18E059";
